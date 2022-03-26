@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(236, 231, 231);
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: '60%';
+    height: 100vh;
+}
+
+.insta-fone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+
+.insta-fone img {
+    height: 40rem;
+    border-radius: 10%;
+}
+.insta-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-width: 34rem;
+}
+
+.grupos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 3rem;
+    border: 3px solid rgb(226, 223, 223);
+}
+
+.grupos:nth-child(1) {
+    min-height: 25rem;
+}
+
+.insta-logo {
+    height: 3rem;
+}
+
+.foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.foto-perfil img {
+    height: 8rem;
+}
+
+.insta-login {
+    background-color: rgb(84, 101, 250);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.insta-logout {
+    color: rgb(38, 38, 245);
+    margin-top: 0,5rem;
+}
+
+.not-account {
+    color: rgb(63, 62, 62);
+}
+
+.link-blue {
+    color: rgb(14, 14, 236);
+    font-family: Helvetica, sans-serif, Arial;
+    
+}
+
+.rodapeclass {
+    color: rgb(166, 168, 170);
+    display: contents;
+    word-spacing: 35px;
+    margin-bottom: 15px;
+}
+
+/* media queries*/
+
+@media (max-width: 1024px) {
+    .insta {
+        width: 90%;
+    }
+}
+@media (max-width: 650px) {
+    .insta {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+.insta-fone {
+    display: none;
+}
+
+.insta-continue {
+    width: 100%;
+}
